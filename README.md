@@ -32,7 +32,7 @@ It contains a range of biomedical voice measurements from 31 people, 23 of whom 
 
 ---
 
-## ⚙️ Methodology & Key Features
+##  Methodology & Key Features
 
 1. **Patient-Grouped Splitting (`GroupShuffleSplit`)**:
 Standard random splitting causes data leakage when multiple recordings exist per patient. This pipeline groups data by Patient ID, ensuring a patient's recordings exist *entirely* in the training set or *entirely* in the test set.
